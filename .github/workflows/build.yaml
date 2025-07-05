@@ -54,7 +54,7 @@ jobs:
         cp platform/switch/zelda3.ini uploads
         
     - name: Upload AppImage
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Zelda3-switch
         path: uploads/
